@@ -3,15 +3,38 @@ body{
 }
 h1{
     font-family: sans-serif;
+    text-align: center;
+    
 }
 table{
     border: 5;
-    border-color: red;
+    border-color: teal;
     text-align: center;
     font-family: sans-serif;
 }
 footer,p{
+
     text-align: center;
     font-family: sans-serif;
     font-style: italic;
+}
+.container input{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 500px;
+}
+form{
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
+    padding: 5px;
+    margin: 15px;
+}
+form textarea{
+    font-family: sans-serif;
+    text-align: center;
+    align-content: center;
+    padding-top: 5%;
 }
