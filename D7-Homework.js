@@ -12,9 +12,17 @@ EX10: Write a function to add a CSS class to every Amazon link
 EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image
 
 EX12: Write a function to color the price of each product in a different one every time it's invoked*/
+
 //Those codes work on Console of webpage
 const changingHeaderTag1 = function(){
     let headerChanging= document.getElementById("Main_Header").innerHTML = "The Best Market in The World";
     return headerChanging
 }
 changingHeaderTag1()
+//working :)
+const pageBGColorChanging = function(){
+    let queryBGChanger = document.body.style.backgroundColor = "red";
+  }
+ 
+  pageBGColorChanging()
+  
